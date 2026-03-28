@@ -1,0 +1,9 @@
+voter_id,name,father_name,house_no,age,gender,booth_id,area
+V101,Rajesh Kumar,Amit Kumar,12A,34,Male,101,Shanti Nagar
+V102,Sita Devi,Ram Charan,14B,28,Female,101,Shanti Nagar
+V103,Vijay Singh,Mohan Singh,15,45,Male,102,Adarsh Colony
+V104,Anjali Sharma,Pankaj Sharma,16C,22,Female,102,Adarsh Colony
+V105,Ravi Varma,Suresh Varma,18,50,Male,101,Shanti Nagar
+V106,Pooja Hegde,Kiran Hegde,20A,25,Female,103,Green Park
+V107,Arjun Reddy,Vikram Reddy,22B,31,Male,103,Green Park
+V108,Maya Rao,Sanjay Rao,24,39,Female,102,Adarsh Colony

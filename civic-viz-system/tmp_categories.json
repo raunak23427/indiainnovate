@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Water"
+  },
+  {
+    "category": "Electricity"
+  },
+  {
+    "category": "Roads"
+  },
+  {
+    "category": "Sanitation"
+  },
+  {
+    "category": "Infrastructure"
+  },
+  {
+    "category": "Pollution"
+  },
+  {
+    "category": "Parks"
+  },
+  {
+    "category": "Safety"
+  },
+  {
+    "category": "Other"
+  },
+  {
+    "category": "Water Supply"
+  }
+]

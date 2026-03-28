@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard | India Innovates</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      background: #0a0f1e;
+      color: #f1f5f9;
+    }
+
+    .bg-grid {
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(99,102,241,0.07) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(99,102,241,0.07) 1px, transparent 1px);
+      background-size: 40px 40px;
+      z-index: 0;
+    }
+
+    nav {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      background: rgba(10,15,30,0.8);
+      backdrop-filter: blur(12px);
+    }
+
+    .nav-icon {
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #6366f1, #818cf8);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+
+    nav h2 { font-size: 16px; font-weight: 700; }
+    nav span { font-size: 13px; color: rgba(255,255,255,0.35); margin-left: auto; }
+
+    .page {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 48px auto;
+      padding: 0 24px;
+    }
+
+    .section-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .section-sub {
+      font-size: 14px;
+      color: rgba(255,255,255,0.4);
+      margin-bottom: 32px;
+    }
+
+    .upload-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 36px;
+      margin-bottom: 28px;
+    }
+
+    .drop-zone {
+      border: 2px dashed rgba(99,102,241,0.4);
+      border-radius: 14px;
+      padding: 48px 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      position: relative;
+    }
+
+    .drop-zone:hover {
+      border-color: #6366f1;
+      background: rgba(99,102,241,0.05);
+    }
+
+    .drop-zone input[type="file"] {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+    }
+
+    .drop-icon { font-size: 40px; margin-bottom: 12px; }
+    .drop-label { font-size: 15px; font-weight: 600; color: rgba(255,255,255,0.7); }
+    .drop-hint { font-size: 12px; color: rgba(255,255,255,0.3); margin-top: 6px; }
+
+    #file-name {
+      margin-top: 16px;
+      font-size: 13px;
+      color: #818cf8;
+      text-align: center;
+      min-height: 20px;
+    }
+
+    #preview-img {
+      display: none;
+      width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+      border-radius: 10px;
+      margin-top: 16px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      margin-top: 20px;
+      border-radius: 12px;
+      border: none;
+      background: linear-gradient(135deg, #6366f1, #818cf8);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Inter', sans-serif;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+    }
+
+    button:hover { opacity: 0.9; transform: translateY(-1px); }
+    button:active { transform: translateY(0); }
+    button:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+    #status {
+      min-height: 24px;
+      font-size: 14px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .status-idle { display: none; }
+
+    .status-loading {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 18px;
+      background: rgba(99,102,241,0.1);
+      border: 1px solid rgba(99,102,241,0.25);
+      border-radius: 12px;
+      color: #818cf8;
+      font-size: 14px;
+    }
+
+    .spinner {
+      width: 18px; height: 18px;
+      border: 2px solid rgba(99,102,241,0.3);
+      border-top-color: #818cf8;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .status-success {
+      padding: 14px 18px;
+      background: rgba(16,185,129,0.1);
+      border: 1px solid rgba(16,185,129,0.25);
+      border-radius: 12px;
+      color: #34d399;
+    }
+
+    .status-error {
+      padding: 14px 18px;
+      background: rgba(239,68,68,0.1);
+      border: 1px solid rgba(239,68,68,0.25);
+      border-radius: 12px;
+      color: #f87171;
+    }
+
+    .result-table-wrap {
+      margin-top: 28px;
+      overflow-x: auto;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    thead tr { background: rgba(99,102,241,0.15); }
+    thead th {
+      padding: 12px 14px;
+      text-align: left;
+      font-weight: 600;
+      color: rgba(255,255,255,0.6);
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 0.6px;
+    }
+
+    tbody tr { border-top: 1px solid rgba(255,255,255,0.05); }
+    tbody tr:hover { background: rgba(255,255,255,0.03); }
+    tbody td { padding: 10px 14px; color: rgba(255,255,255,0.8); }
+
+    #result-table { display: none; }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <nav>
+    <div class="nav-icon">🗳️</div>
+    <h2>India Innovates — Admin</h2>
+    <span>Electoral Roll Management</span>
+  </nav>
+
+  <div class="page">
+    <div class="section-title">Upload Electoral Roll Image</div>
+    <div class="section-sub">Upload a scanned roll page. The AI will extract all voter records automatically.</div>
+
+    <div class="upload-card">
+      <div class="drop-zone" id="drop-zone">
+        <input type="file" id="file-input" accept=".jpg,.jpeg,.png" onchange="onFileChange(event)"/>
+        <div class="drop-icon">📄</div>
+        <div class="drop-label">Click or drag an image here</div>
+        <div class="drop-hint">Supports JPG, JPEG, PNG</div>
+      </div>
+      <div id="file-name"></div>
+      <img id="preview-img" alt="Preview"/>
+      <button id="upload-btn" onclick="uploadImage()" disabled>Upload Roll Image</button>
+    </div>
+
+    <div id="status" class="status-idle"></div>
+
+    <div id="result-table">
+      <div class="result-table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>EPIC</th>
+              <th>Serial</th>
+              <th>Name</th>
+              <th>Relation</th>
+              <th>Relative</th>
+              <th>House</th>
+              <th>Age</th>
+              <th>Gender</th>
+              <th>Constituency</th>
+              <th>Section</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let selectedFile = null;
+
+    function onFileChange(event) {
+      selectedFile = event.target.files[0];
+      if (!selectedFile) return;
+      document.getElementById("file-name").textContent = selectedFile.name;
+      document.getElementById("upload-btn").disabled = false;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const img = document.getElementById("preview-img");
+        img.src = e.target.result;
+        img.style.display = "block";
+      };
+      reader.readAsDataURL(selectedFile);
+    }
+
+    async function uploadImage() {
+      if (!selectedFile) return;
+
+      const statusEl = document.getElementById("status");
+      const btn = document.getElementById("upload-btn");
+      btn.disabled = true;
+      document.getElementById("result-table").style.display = "none";
+
+      statusEl.className = "status-loading";
+      statusEl.innerHTML = '<div class="spinner"></div><span>Sending to AI for extraction… this may take a few seconds</span>';
+
+      const formData = new FormData();
+      formData.append("file", selectedFile);
+
+      try {
+        const res = await fetch("/api/admin/extract_image", { method: "POST", body: formData });
+        const data = await res.json();
+
+        if (!res.ok) {
+          statusEl.className = "status-error";
+          statusEl.textContent = "Error: " + (data.detail || "Unknown error");
+          btn.disabled = false;
+          return;
+        }
+
+        statusEl.className = "status-success";
+        statusEl.textContent = "✓ Extraction complete — " + data.inserted + " voters inserted, " + data.skipped + " skipped.";
+
+        if (data.voters && data.voters.length > 0) {
+          const tbody = document.getElementById("table-body");
+          tbody.innerHTML = "";
+          data.voters.forEach(function(v) {
+            const tr = document.createElement("tr");
+            tr.innerHTML =
+              "<td>" + (v.epic_number || "") + "</td>" +
+              "<td>" + (v.serial_number || "") + "</td>" +
+              "<td>" + (v.voter_name || "") + "</td>" +
+              "<td>" + (v.relation_type || "") + "</td>" +
+              "<td>" + (v.relative_name || "") + "</td>" +
+              "<td>" + (v.house_number || "") + "</td>" +
+              "<td>" + (v.age || "") + "</td>" +
+              "<td>" + (v.gender || "") + "</td>" +
+              "<td>" + (v.assembly_constituency || "") + "</td>" +
+              "<td>" + (v.section_name || "") + "</td>";
+            tbody.appendChild(tr);
+          });
+          document.getElementById("result-table").style.display = "block";
+        }
+      } catch (err) {
+        statusEl.className = "status-error";
+        statusEl.textContent = "Request failed: " + err.message;
+      }
+
+      btn.disabled = false;
+    }
+  </script>
+</body>
+</html>

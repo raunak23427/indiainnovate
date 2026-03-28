@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neural-bg: #050507;
+  --neural-card: rgba(13, 14, 18, 0.7);
+  --neural-blue: #0A84FF;
+  --neural-blue-glow: rgba(10, 132, 255, 0.4);
+  --neural-red: #FF453A;
+  --neural-red-glow: rgba(255, 69, 58, 0.4);
+  --neural-text: #F5F5F7;
+  --neural-text-dim: #8E8E93;
+  --neural-border: rgba(255, 255, 255, 0.06);
+  --neural-glass: blur(40px) saturate(180%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+  background-color: var(--neural-bg);
+  color: var(--neural-text);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+  overflow-x: hidden;
+}
+
+@layer components {
+  .glass-premium {
+    background: var(--neural-card);
+    backdrop-filter: var(--neural-glass);
+    -webkit-backdrop-filter: var(--neural-glass);
+    border: 1px solid var(--neural-border);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  }
+  
+  .apple-card {
+    background: var(--neural-card);
+    backdrop-filter: var(--neural-glass);
+    -webkit-backdrop-filter: var(--neural-glass);
+    border: 1px solid var(--neural-border);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 32px;
+    transition: all 0.7s ease;
+  }
+  .apple-card:hover {
+    box-shadow: 0 25px 80px rgba(0,0,0,0.9);
+    border-color: rgba(255,255,255,0.1);
+  }
+
+  .apple-button-primary {
+    padding: 1rem 2.5rem;
+    border-radius: 9999px;
+    background: var(--neural-blue);
+    color: white;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 30px var(--neural-blue-glow);
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .apple-button-primary:hover {
+    box-shadow: 0 0 50px var(--neural-blue-glow);
+    transform: scale(1.05);
+  }
+
+  .apple-button-secondary {
+    padding: 1rem 2.5rem;
+    border-radius: 9999px;
+    background: rgba(255,255,255,0.05);
+    color: var(--neural-text);
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    border: 1px solid rgba(255,255,255,0.1);
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .apple-button-secondary:hover {
+    background: rgba(255,255,255,0.1);
+    transform: scale(1.05);
+  }
+
+  .apple-pill {
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    background: var(--neural-card);
+    backdrop-filter: var(--neural-glass);
+    -webkit-backdrop-filter: var(--neural-glass);
+    border: 1px solid var(--neural-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-link {
+    color: var(--neural-text-dim);
+    font-weight: 900;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: -0.05em;
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    color: white;
+    letter-spacing: 0.1em;
+  }
+}
+
+/* Neural Matrix Scanning Animation */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+.scan-line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--neural-blue), transparent);
+  opacity: 0.1;
+  animation: scanline 8s linear infinite;
+}
+
+/* Spin Animation */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--neural-blue); }

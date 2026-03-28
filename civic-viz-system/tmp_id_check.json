@@ -1,0 +1,36 @@
+{
+  "booths": [
+    {
+      "booth_id": "Z01-CHA-C11-B01"
+    },
+    {
+      "booth_id": "Z01-CHA-C11-B02"
+    },
+    {
+      "booth_id": "Z01-CHA-C11-B03"
+    },
+    {
+      "booth_id": "Z01-CHA-C11-B04"
+    },
+    {
+      "booth_id": "Z01-CHA-C11-B05"
+    }
+  ],
+  "complaints": [
+    {
+      "booth_id": "Z01-DWA-C01-B01"
+    },
+    {
+      "booth_id": "Z01-DWA-C01-B01"
+    },
+    {
+      "booth_id": "Z01-DWA-C01-B01"
+    },
+    {
+      "booth_id": "Z01-DWA-C01-B01"
+    },
+    {
+      "booth_id": "Z01-DWA-C01-B01"
+    }
+  ]
+}

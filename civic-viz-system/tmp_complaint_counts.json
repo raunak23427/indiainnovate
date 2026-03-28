@@ -1,0 +1,42 @@
+[
+  {
+    "area": "Central Delhi",
+    "count": 27000
+  },
+  {
+    "area": "New Delhi",
+    "count": 27000
+  },
+  {
+    "area": "North Delhi",
+    "count": 27000
+  },
+  {
+    "area": "North East Delhi",
+    "count": 27000
+  },
+  {
+    "area": "North West Delhi",
+    "count": 135000
+  },
+  {
+    "area": "Shahdara",
+    "count": 27000
+  },
+  {
+    "area": "South Delhi",
+    "count": 27000
+  },
+  {
+    "area": "South East Delhi",
+    "count": 27000
+  },
+  {
+    "area": "South West Delhi",
+    "count": 27000
+  },
+  {
+    "area": "West Delhi",
+    "count": 27000
+  }
+]

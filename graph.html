@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Knowledge Graph | India Innovates</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <script src="https://unpkg.com/3d-force-graph@1.73.0/dist/3d-force-graph.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #060b18;
+      color: #f1f5f9;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #graph { width: 100vw; height: 100vh; }
+
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 24px;
+      background: rgba(6,11,24,0.75);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .nav-icon {
+      width: 32px; height: 32px;
+      border-radius: 9px;
+      background: linear-gradient(135deg, #6366f1, #818cf8);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px;
+    }
+
+    nav h2 { font-size: 14px; font-weight: 700; }
+
+    .nav-right {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .node-count {
+      font-size: 12px;
+      color: rgba(255,255,255,0.35);
+    }
+
+    .legend {
+      position: fixed;
+      bottom: 24px;
+      left: 24px;
+      z-index: 100;
+      background: rgba(6,11,24,0.82);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 16px 20px;
+      backdrop-filter: blur(14px);
+      min-width: 170px;
+    }
+
+    .legend-title {
+      font-size: 10px;
+      font-weight: 700;
+      color: rgba(255,255,255,0.35);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 12px;
+    }
+
+    .legend-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      font-size: 12px;
+      color: rgba(255,255,255,0.65);
+    }
+
+    .legend-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    #info-card {
+      position: fixed;
+      top: 72px;
+      right: 24px;
+      z-index: 100;
+      background: rgba(6,11,24,0.88);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      padding: 20px 24px;
+      backdrop-filter: blur(18px);
+      min-width: 220px;
+      max-width: 300px;
+      display: none;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+    }
+
+    .info-group {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.9px;
+      margin-bottom: 6px;
+    }
+
+    .info-label {
+      font-size: 18px;
+      font-weight: 700;
+      color: #f1f5f9;
+      word-break: break-word;
+      line-height: 1.3;
+    }
+
+    .info-divider {
+      height: 1px;
+      background: rgba(255,255,255,0.07);
+      margin: 14px 0;
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: rgba(255,255,255,0.45);
+      margin-bottom: 6px;
+    }
+
+    .info-row span:last-child { color: rgba(255,255,255,0.75); }
+
+    .close-btn {
+      position: absolute;
+      top: 12px; right: 14px;
+      background: none;
+      border: none;
+      color: rgba(255,255,255,0.3);
+      font-size: 18px;
+      cursor: pointer;
+      line-height: 1;
+      padding: 2px 6px;
+      border-radius: 6px;
+      transition: color 0.2s;
+    }
+
+    .close-btn:hover { color: rgba(255,255,255,0.8); }
+
+    #loading {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      background: #060b18;
+      z-index: 200;
+    }
+
+    .load-spinner {
+      width: 44px; height: 44px;
+      border: 3px solid rgba(99,102,241,0.2);
+      border-top-color: #818cf8;
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .load-text {
+      font-size: 14px;
+      color: rgba(255,255,255,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <div id="loading">
+    <div class="load-spinner"></div>
+    <div class="load-text">Building knowledge graph…</div>
+  </div>
+
+  <nav>
+    <div class="nav-icon">🕸️</div>
+    <h2>Electoral Knowledge Graph</h2>
+    <div class="nav-right">
+      <span class="node-count" id="node-count"></span>
+    </div>
+  </nav>
+
+  <div class="legend">
+    <div class="legend-title">Node Groups</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#4f8ef7"></div>Voter</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#34d399"></div>House</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#a78bfa"></div>Section</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#f87171"></div>Complaint</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#fbbf24"></div>Age</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#f472b6"></div>Gender</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#e2e8f0"></div>Assembly</div>
+  </div>
+
+  <div id="info-card">
+    <button class="close-btn" onclick="closeCard()">×</button>
+    <div class="info-group" id="info-group"></div>
+    <div class="info-label" id="info-label"></div>
+    <div class="info-divider"></div>
+    <div class="info-row"><span>Connections</span><span id="info-links">—</span></div>
+    <div class="info-row"><span>Node ID</span><span id="info-id">—</span></div>
+  </div>
+
+  <div id="graph"></div>
+
+  <script>
+    const GROUP_COLORS = {
+      Voter:    "#4f8ef7",
+      House:    "#34d399",
+      Section:  "#a78bfa",
+      Complaint:"#f87171",
+      Age:      "#fbbf24",
+      Gender:   "#f472b6",
+      Assembly: "#e2e8f0"
+    };
+
+    const NODE_SIZES = {
+      Voter:    4,
+      House:    7,
+      Section:  7,
+      Complaint:9,
+      Age:      6,
+      Gender:   6,
+      Assembly: 8
+    };
+
+    let graph;
+    let fullData = { nodes: [], links: [] };
+    let highlightNodes = new Set();
+    let highlightLinks = new Set();
+    let selectedNode = null;
+
+    function colorOf(group) {
+      return GROUP_COLORS[group] || "#ffffff";
+    }
+
+    function sizeOf(group) {
+      return NODE_SIZES[group] || 4;
+    }
+
+    function getNeighbors(nodeId, links) {
+      const neighbors = new Set();
+      const neighborLinks = new Set();
+      links.forEach(function(link) {
+        const src = typeof link.source === "object" ? link.source.id : link.source;
+        const tgt = typeof link.target === "object" ? link.target.id : link.target;
+        if (src === nodeId) { neighbors.add(tgt); neighborLinks.add(link); }
+        if (tgt === nodeId) { neighbors.add(src); neighborLinks.add(link); }
+      });
+      return { neighbors, neighborLinks };
+    }
+
+    function closeCard() {
+      document.getElementById("info-card").style.display = "none";
+      selectedNode = null;
+      highlightNodes.clear();
+      highlightLinks.clear();
+      if (graph) graph.nodeColor(function(n) { return colorOf(n.group); })
+                       .nodeOpacity(0.92)
+                       .linkOpacity(0.2);
+    }
+
+    function showCard(node, linkCount) {
+      document.getElementById("info-group").textContent = node.group;
+      document.getElementById("info-group").style.color = colorOf(node.group);
+      document.getElementById("info-label").textContent = node.label;
+      document.getElementById("info-links").textContent = linkCount;
+      document.getElementById("info-id").textContent = node.id;
+      document.getElementById("info-card").style.display = "block";
+    }
+
+    fetch("/api/graph_data")
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        fullData = data;
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("node-count").textContent =
+          data.nodes.length + " nodes · " + data.links.length + " links";
+
+        graph = ForceGraph3D()(document.getElementById("graph"))
+          .backgroundColor("#060b18")
+          .graphData(data)
+          .nodeId("id")
+          .nodeLabel("label")
+          .nodeColor(function(n) { return colorOf(n.group); })
+          .nodeVal(function(n) { return sizeOf(n.group); })
+          .nodeOpacity(0.92)
+          .nodeResolution(16)
+          .linkColor(function() { return "rgba(148,163,184,0.15)"; })
+          .linkWidth(0.5)
+          .linkOpacity(0.2)
+          .linkDirectionalParticles(1)
+          .linkDirectionalParticleSpeed(0.004)
+          .linkDirectionalParticleWidth(function(link) {
+            return highlightLinks.has(link) ? 2 : 0;
+          })
+          .onNodeClick(function(node) {
+            if (selectedNode && selectedNode.id === node.id) {
+              closeCard();
+              return;
+            }
+
+            selectedNode = node;
+            const links = graph.graphData().links;
+            const result = getNeighbors(node.id, links);
+
+            highlightNodes.clear();
+            highlightLinks.clear();
+            highlightNodes.add(node.id);
+            result.neighbors.forEach(function(id) { highlightNodes.add(id); });
+            result.neighborLinks.forEach(function(l) { highlightLinks.add(l); });
+
+            graph.nodeColor(function(n) {
+              if (highlightNodes.has(n.id)) return colorOf(n.group);
+              return "rgba(30,35,60,0.25)";
+            });
+
+            graph.linkColor(function(link) {
+              if (highlightLinks.has(link)) return colorOf(node.group);
+              return "rgba(30,35,60,0.05)";
+            });
+
+            graph.linkDirectionalParticleWidth(function(link) {
+              return highlightLinks.has(link) ? 2 : 0;
+            });
+
+            showCard(node, result.neighbors.size);
+
+            graph.centerAt(node.x, node.y, node.z, 600);
+            graph.cameraPosition({ x: node.x, y: node.y, z: node.z + 180 }, node, 800);
+          })
+          .onBackgroundClick(closeCard);
+
+        graph.d3Force("charge").strength(-120);
+      })
+      .catch(function(err) {
+        document.getElementById("loading").innerHTML =
+          "<div style='color:#f87171;font-size:14px;'>Failed to load graph data:<br/>" + err.message + "</div>";
+      });
+  </script>
+</body>
+</html>

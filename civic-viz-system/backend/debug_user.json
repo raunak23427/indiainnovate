@@ -1,0 +1,16 @@
+{
+  "row": {
+    "id": 2,
+    "name": "RAUNAK",
+    "address": "",
+    "pincode": "110048",
+    "area": "Shahdara",
+    "booth_id": "DL-047",
+    "phone": "",
+    "createdAt": "2026-03-27 20:55:20",
+    "email": null
+  },
+  "schema": {
+    "sql": "CREATE TABLE unregistered_users (\n    id         INTEGER PRIMARY KEY AUTOINCREMENT,\n    name       TEXT NOT NULL,\n    address    TEXT,\n    pincode    TEXT,\n    area       TEXT,\n    booth_id   TEXT,\n    phone      TEXT,\n    createdAt  DATETIME DEFAULT CURRENT_TIMESTAMP\n  , email TEXT)"
+  }
+}

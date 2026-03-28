@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Water",
+    "imageUrl": "/uploads/prob_drain_garbage.png"
+  },
+  {
+    "category": "Water",
+    "imageUrl": "/uploads/prob_drain_garbage.png"
+  },
+  {
+    "category": "Water",
+    "imageUrl": "/uploads/prob_drain_garbage.png"
+  },
+  {
+    "category": "Electricity",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Power_lines_in_Delhi.jpg/800px-Power_lines_in_Delhi.jpg"
+  },
+  {
+    "category": "Electricity",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Power_lines_in_Delhi.jpg/800px-Power_lines_in_Delhi.jpg"
+  },
+  {
+    "category": "Electricity",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Power_lines_in_Delhi.jpg/800px-Power_lines_in_Delhi.jpg"
+  },
+  {
+    "category": "Roads",
+    "imageUrl": "/uploads/prob_pothole_1.png"
+  },
+  {
+    "category": "Roads",
+    "imageUrl": "/uploads/prob_pothole_1.png"
+  },
+  {
+    "category": "Roads",
+    "imageUrl": "/uploads/prob_pothole_1.png"
+  },
+  {
+    "category": "Sanitation",
+    "imageUrl": "/uploads/prob_garbage_river.png"
+  }
+]

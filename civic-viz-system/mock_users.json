@@ -1,0 +1,1802 @@
+[
+    {
+        "voter_id": "VID00001",
+        "name": "Ishaan Malhotra",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00002",
+        "name": "Aarav Singh",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00003",
+        "name": "Nisha Awasti",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00004",
+        "name": "Myra Chopra",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00005",
+        "name": "Aditi Sengupta",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00006",
+        "name": "Vivaan Patel",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00007",
+        "name": "Aarav Iyer",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00008",
+        "name": "Ayaan Kapoor",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00009",
+        "name": "Nisha Gowda",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00010",
+        "name": "Aadhya Singh",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00011",
+        "name": "Alia Malhotra",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00012",
+        "name": "Reyansh Awasti",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00013",
+        "name": "Shaurya Bansal",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00014",
+        "name": "Sai Gowda",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00015",
+        "name": "Dhruv Desai",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00016",
+        "name": "Alia Pandey",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00017",
+        "name": "Kiara Kapoor",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00018",
+        "name": "Kiara Sengupta",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00019",
+        "name": "Vihaan Desai",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00020",
+        "name": "Ishita Bose",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00021",
+        "name": "Kavya Mehta",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00022",
+        "name": "Shaurya Kulkarni",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00023",
+        "name": "Ritvik Bansal",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00024",
+        "name": "Kabir Kumar",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00025",
+        "name": "Ishan Malhotra",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00026",
+        "name": "Aditya Reddy",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00027",
+        "name": "Abhinav Kulkarni",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00028",
+        "name": "Jiya Pandey",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00029",
+        "name": "Reyansh Bose",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00030",
+        "name": "Aaryan Joshi",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00031",
+        "name": "Reyansh Kapoor",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00032",
+        "name": "Dhruv Yadav",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00033",
+        "name": "Saanvi Verma",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00034",
+        "name": "Anjali Kapoor",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00035",
+        "name": "Ishaan Desai",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00036",
+        "name": "Sai Desai",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00037",
+        "name": "Ananya Awasti",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00038",
+        "name": "Anjali Verma",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00039",
+        "name": "Ishaan Yadav",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00040",
+        "name": "Neha Singh",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00041",
+        "name": "Ishaan Gowda",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00042",
+        "name": "Aditya Verma",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00043",
+        "name": "Ritvik Chopra",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00044",
+        "name": "Myra Bansal",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00045",
+        "name": "Reyansh Nair",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00046",
+        "name": "Nisha Banerjee",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00047",
+        "name": "Aditya Reddy",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00048",
+        "name": "Reyansh Arora",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00049",
+        "name": "Saanvi Patel",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00050",
+        "name": "Sneha Sengupta",
+        "booth_id": 201,
+        "area": "Dwarka"
+    },
+    {
+        "voter_id": "VID00051",
+        "name": "Arjun Pillai",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00052",
+        "name": "Sneha Kapoor",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00053",
+        "name": "Krishna Desai",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00054",
+        "name": "Ayaan Kulkarni",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00055",
+        "name": "Dhruv Bansal",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00056",
+        "name": "Saanvi Desai",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00057",
+        "name": "Alia Reddy",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00058",
+        "name": "Aaryan Arora",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00059",
+        "name": "Jiya Nair",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00060",
+        "name": "Sneha Kumar",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00061",
+        "name": "Ayaan Pandey",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00062",
+        "name": "Saanvi Mehta",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00063",
+        "name": "Abhinav Nair",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00064",
+        "name": "Sneha Chopra",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00065",
+        "name": "Nisha Sharma",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00066",
+        "name": "Vivaan Desai",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00067",
+        "name": "Vihaan Verma",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00068",
+        "name": "Riya Jain",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00069",
+        "name": "Sneha Nair",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00070",
+        "name": "Riya Mishra",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00071",
+        "name": "Sneha Kapoor",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00072",
+        "name": "Nisha Gowda",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00073",
+        "name": "Aaryan Nair",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00074",
+        "name": "Shaurya Mishra",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00075",
+        "name": "Karthik Bose",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00076",
+        "name": "Anjali Chopra",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00077",
+        "name": "Aaryan Sharma",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00078",
+        "name": "Ayaan Arora",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00079",
+        "name": "Kiara Mishra",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00080",
+        "name": "Aditya Kapoor",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00081",
+        "name": "Vivaan Awasti",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00082",
+        "name": "Ishita Kulkarni",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00083",
+        "name": "Sara Sharma",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00084",
+        "name": "Pari Gowda",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00085",
+        "name": "Saanvi Das",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00086",
+        "name": "Aditya Desai",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00087",
+        "name": "Aditya Sengupta",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00088",
+        "name": "Riya Arora",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00089",
+        "name": "Aditi Awasti",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00090",
+        "name": "Abhinav Iyer",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00091",
+        "name": "Vihaan Chopra",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00092",
+        "name": "Nisha Yadav",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00093",
+        "name": "Ananya Chopra",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00094",
+        "name": "Aaliyah Iyer",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00095",
+        "name": "Vivaan Patel",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00096",
+        "name": "Sara Mishra",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00097",
+        "name": "Aditi Sharma",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00098",
+        "name": "Ayaan Chawla",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00099",
+        "name": "Saanvi Singh",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00100",
+        "name": "Aaryan Gupta",
+        "booth_id": 202,
+        "area": "Rohini"
+    },
+    {
+        "voter_id": "VID00101",
+        "name": "Ishita Kulkarni",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00102",
+        "name": "Dhruv Jain",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00103",
+        "name": "Aadhya Iyer",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00104",
+        "name": "Aaliyah Gowda",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00105",
+        "name": "Aarav Verma",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00106",
+        "name": "Ananya Chopra",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00107",
+        "name": "Jiya Pandey",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00108",
+        "name": "Ishaan Desai",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00109",
+        "name": "Aadhya Mishra",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00110",
+        "name": "Karthik Chawla",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00111",
+        "name": "Kriti Chopra",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00112",
+        "name": "Kabir Bansal",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00113",
+        "name": "Karthik Reddy",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00114",
+        "name": "Aditi Sharma",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00115",
+        "name": "Pari Pillai",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00116",
+        "name": "Myra Bansal",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00117",
+        "name": "Ayaan Mehta",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00118",
+        "name": "Shaurya Chawla",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00119",
+        "name": "Riya Kapoor",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00120",
+        "name": "Ananya Banerjee",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00121",
+        "name": "Karthik Mehta",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00122",
+        "name": "Ayaan Kapoor",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00123",
+        "name": "Krishna Patel",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00124",
+        "name": "Vivaan Kulkarni",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00125",
+        "name": "Aditi Gowda",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00126",
+        "name": "Aditi Bansal",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00127",
+        "name": "Kiara Chawla",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00128",
+        "name": "Aarav Mehta",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00129",
+        "name": "Aditya Banerjee",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00130",
+        "name": "Anjali Joshi",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00131",
+        "name": "Neha Singh",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00132",
+        "name": "Sneha Sharma",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00133",
+        "name": "Kiara Kulkarni",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00134",
+        "name": "Sai Verma",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00135",
+        "name": "Ishan Awasti",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00136",
+        "name": "Atharv Patel",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00137",
+        "name": "Karthik Gupta",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00138",
+        "name": "Ishaan Verma",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00139",
+        "name": "Reyansh Chawla",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00140",
+        "name": "Shaurya Yadav",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00141",
+        "name": "Reyansh Awasti",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00142",
+        "name": "Shaurya Gowda",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00143",
+        "name": "Myra Arora",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00144",
+        "name": "Anjali Reddy",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00145",
+        "name": "Karthik Bansal",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00146",
+        "name": "Sara Kumar",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00147",
+        "name": "Vivaan Gowda",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00148",
+        "name": "Shaurya Kulkarni",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00149",
+        "name": "Arjun Chawla",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00150",
+        "name": "Karthik Mehta",
+        "booth_id": 203,
+        "area": "Saket"
+    },
+    {
+        "voter_id": "VID00151",
+        "name": "Kriti Kumar",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00152",
+        "name": "Kiara Mehta",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00153",
+        "name": "Vihaan Gupta",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00154",
+        "name": "Saanvi Mishra",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00155",
+        "name": "Aditi Kapoor",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00156",
+        "name": "Reyansh Awasti",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00157",
+        "name": "Aditi Chopra",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00158",
+        "name": "Diya Desai",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00159",
+        "name": "Vihaan Chawla",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00160",
+        "name": "Ritvik Reddy",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00161",
+        "name": "Saanvi Das",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00162",
+        "name": "Aditi Pandey",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00163",
+        "name": "Shaurya Kapoor",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00164",
+        "name": "Aryan Yadav",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00165",
+        "name": "Sara Patel",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00166",
+        "name": "Aditi Kapoor",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00167",
+        "name": "Ritvik Mishra",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00168",
+        "name": "Diya Gowda",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00169",
+        "name": "Sneha Mishra",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00170",
+        "name": "Abhinav Gupta",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00171",
+        "name": "Aditya Kapoor",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00172",
+        "name": "Shaurya Kumar",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00173",
+        "name": "Aarav Bansal",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00174",
+        "name": "Arjun Kapoor",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00175",
+        "name": "Arjun Banerjee",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00176",
+        "name": "Diya Gupta",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00177",
+        "name": "Ishan Sengupta",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00178",
+        "name": "Atharv Pillai",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00179",
+        "name": "Karthik Bose",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00180",
+        "name": "Sara Patel",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00181",
+        "name": "Myra Mishra",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00182",
+        "name": "Neha Kulkarni",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00183",
+        "name": "Ananya Awasti",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00184",
+        "name": "Aaryan Kulkarni",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00185",
+        "name": "Karthik Sharma",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00186",
+        "name": "Myra Nair",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00187",
+        "name": "Riya Pandey",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00188",
+        "name": "Alia Iyer",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00189",
+        "name": "Vihaan Singh",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00190",
+        "name": "Anjali Mishra",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00191",
+        "name": "Karthik Gowda",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00192",
+        "name": "Ishaan Pillai",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00193",
+        "name": "Kriti Reddy",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00194",
+        "name": "Sara Sharma",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00195",
+        "name": "Reyansh Arora",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00196",
+        "name": "Nisha Bansal",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00197",
+        "name": "Sneha Bose",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00198",
+        "name": "Neha Reddy",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00199",
+        "name": "Jiya Yadav",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00200",
+        "name": "Jiya Chopra",
+        "booth_id": 204,
+        "area": "Laxmi Nagar"
+    },
+    {
+        "voter_id": "VID00201",
+        "name": "Reyansh Bose",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00202",
+        "name": "Kiara Kumar",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00203",
+        "name": "Saanvi Bansal",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00204",
+        "name": "Sara Yadav",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00205",
+        "name": "Aarav Chawla",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00206",
+        "name": "Dhruv Kumar",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00207",
+        "name": "Kavya Chopra",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00208",
+        "name": "Alia Chawla",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00209",
+        "name": "Kavya Sengupta",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00210",
+        "name": "Jiya Mehta",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00211",
+        "name": "Kabir Bose",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00212",
+        "name": "Ishaan Gupta",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00213",
+        "name": "Alia Yadav",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00214",
+        "name": "Aarav Nair",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00215",
+        "name": "Aditya Nair",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00216",
+        "name": "Ayaan Yadav",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00217",
+        "name": "Abhinav Sengupta",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00218",
+        "name": "Ishaan Sengupta",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00219",
+        "name": "Arjun Reddy",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00220",
+        "name": "Kabir Patel",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00221",
+        "name": "Kriti Bansal",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00222",
+        "name": "Atharv Iyer",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00223",
+        "name": "Alia Kulkarni",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00224",
+        "name": "Myra Patel",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00225",
+        "name": "Vihaan Desai",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00226",
+        "name": "Riya Verma",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00227",
+        "name": "Aarav Kulkarni",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00228",
+        "name": "Atharv Gowda",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00229",
+        "name": "Kabir Reddy",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00230",
+        "name": "Diya Iyer",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00231",
+        "name": "Diya Sengupta",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00232",
+        "name": "Sara Das",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00233",
+        "name": "Arjun Gowda",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00234",
+        "name": "Ishan Mishra",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00235",
+        "name": "Ishaan Pandey",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00236",
+        "name": "Ritvik Sengupta",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00237",
+        "name": "Karthik Bose",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00238",
+        "name": "Diya Gowda",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00239",
+        "name": "Krishna Sharma",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00240",
+        "name": "Aaliyah Arora",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00241",
+        "name": "Vivaan Mishra",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00242",
+        "name": "Aarav Singh",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00243",
+        "name": "Vivaan Pillai",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00244",
+        "name": "Aryan Malhotra",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00245",
+        "name": "Kabir Kumar",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00246",
+        "name": "Krishna Chawla",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00247",
+        "name": "Saanvi Chawla",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00248",
+        "name": "Diya Patel",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00249",
+        "name": "Vihaan Verma",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00250",
+        "name": "Anjali Gupta",
+        "booth_id": 205,
+        "area": "Janakpuri"
+    },
+    {
+        "voter_id": "VID00251",
+        "name": "Sai Reddy",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00252",
+        "name": "Aryan Sharma",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00253",
+        "name": "Aarav Pandey",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00254",
+        "name": "Anjali Mishra",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00255",
+        "name": "Ayaan Awasti",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00256",
+        "name": "Abhinav Malhotra",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00257",
+        "name": "Ayaan Mehta",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00258",
+        "name": "Aarav Pandey",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00259",
+        "name": "Ayaan Singh",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00260",
+        "name": "Krishna Kapoor",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00261",
+        "name": "Ishita Gupta",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00262",
+        "name": "Dhruv Das",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00263",
+        "name": "Dhruv Pandey",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00264",
+        "name": "Riya Mishra",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00265",
+        "name": "Sai Mehta",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00266",
+        "name": "Anjali Yadav",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00267",
+        "name": "Vihaan Gupta",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00268",
+        "name": "Arjun Das",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00269",
+        "name": "Jiya Yadav",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00270",
+        "name": "Aditi Kapoor",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00271",
+        "name": "Abhinav Nair",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00272",
+        "name": "Sara Yadav",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00273",
+        "name": "Vivaan Pillai",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00274",
+        "name": "Saanvi Desai",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00275",
+        "name": "Reyansh Awasti",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00276",
+        "name": "Ritvik Nair",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00277",
+        "name": "Karthik Sharma",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00278",
+        "name": "Pari Chawla",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00279",
+        "name": "Ayaan Banerjee",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00280",
+        "name": "Aadhya Iyer",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00281",
+        "name": "Aaliyah Gowda",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00282",
+        "name": "Alia Awasti",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00283",
+        "name": "Arjun Yadav",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00284",
+        "name": "Reyansh Gupta",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00285",
+        "name": "Ishaan Kulkarni",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00286",
+        "name": "Jiya Patel",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00287",
+        "name": "Aditya Bansal",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00288",
+        "name": "Anjali Sengupta",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00289",
+        "name": "Jiya Gupta",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00290",
+        "name": "Kavya Bansal",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00291",
+        "name": "Dhruv Gupta",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00292",
+        "name": "Reyansh Pandey",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00293",
+        "name": "Kriti Joshi",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00294",
+        "name": "Dhruv Pandey",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00295",
+        "name": "Vivaan Yadav",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00296",
+        "name": "Shaurya Gowda",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00297",
+        "name": "Nisha Jain",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00298",
+        "name": "Neha Pandey",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00299",
+        "name": "Neha Malhotra",
+        "booth_id": 206,
+        "area": "Pitampura"
+    },
+    {
+        "voter_id": "VID00300",
+        "name": "Shaurya Desai",
+        "booth_id": 206,
+        "area": "Pitampura"
+    }
+]

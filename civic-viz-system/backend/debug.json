@@ -1,0 +1,35 @@
+{
+  "schema": {
+    "sql": "CREATE TABLE \"complaints\"(\n  id INT,\n  voter_id TEXT,\n  booth_id TEXT,\n  category TEXT,\n  description TEXT,\n  imageUrl TEXT,\n  status TEXT,\n  resolutionProofUrl TEXT,\n  adminComments TEXT,\n  longitude REAL,\n  latitude REAL,\n  createdAt NUM,\n  address TEXT,\n  department_name TEXT,\n  assigned_department TEXT,\n  assigned_at NUM,\n  department_response TEXT,\n  response_timestamp NUM,\n  assigned_by_admin TEXT,\n  completed_at NUM,\n  final_status TEXT,\n  admin_review_note TEXT,\n  resolution_image TEXT,\n  area TEXT,\n  ac_id TEXT,\n  ac_name TEXT\n)"
+  },
+  "rows": [
+    {
+      "id": null,
+      "voter_id": "GUEST-1",
+      "booth_id": "Z10-ROH-C09-B50",
+      "category": "Water Supply",
+      "description": "DRAINAGE",
+      "imageUrl": "/uploads/e980d11d393412c89d6e0a46968e9944",
+      "status": null,
+      "resolutionProofUrl": null,
+      "adminComments": null,
+      "longitude": null,
+      "latitude": null,
+      "createdAt": null,
+      "address": "28.556456, 77.252460 | GPS: 28.556455789913112,77.25245974102764 | Maps: https://www.google.com/maps?q=28.556455789913112,77.25245974102764",
+      "department_name": "Jal Board",
+      "assigned_department": null,
+      "assigned_at": null,
+      "department_response": null,
+      "response_timestamp": null,
+      "assigned_by_admin": null,
+      "completed_at": null,
+      "final_status": null,
+      "admin_review_note": null,
+      "resolution_image": null,
+      "area": "",
+      "ac_id": null,
+      "ac_name": null
+    }
+  ]
+}
